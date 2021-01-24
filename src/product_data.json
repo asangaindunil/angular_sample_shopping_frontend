@@ -1,0 +1,112 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "Clothing",
+            "description": "Sample Description Of Clothing",
+            "image":[
+                {
+                    "type":"main",
+                    "url":"https://cdn2.iconfinder.com/data/icons/ecommerce-product-category/64/Marketplace_Categories_-_Filled-01-512.png"
+                }
+            ],
+            "item": [
+                {
+                    "name":"T-Shirt",
+                    "description":"Sample Description of T-Shirt",
+                    "price":200,
+                    "image":[
+                        {
+                            "type":"main",
+                            "url":"https://www.artofbrilliance.co.uk/wp-content/uploads/2019/02/happy-tshirt-1.jpg"
+                        },
+                        {
+                            "type":"sub",
+                            "url":"https://www.artofbrilliance.co.uk/wp-content/uploads/2019/02/happy-orange.jpg"
+                        },
+                        {
+                            "type":"sub",
+                            "url":"https://www.artofbrilliance.co.uk/wp-content/uploads/2019/02/happy-red.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name":"Shorts",
+                    "description":"Sample Description of Shorts",
+                    "price":200,
+                    "image":[
+                        {
+                            "type":"main",
+                            "url":"https://etre-fort.com/wp-content/uploads/2018/08/shorts-ef-s2.png"
+                        },
+                        {
+                            "type":"sub",
+                            "url":"https://etre-fort.com/wp-content/uploads/2018/08/shorts.png"
+                        },
+                        {
+                            "type":"sub",
+                            "url":"https://www.krapstore.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/p/a/parkour_shorts_2017_grey_0.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Digital-Cameras",
+            "description": "Sample Description of Digital camera",
+            "image":[
+                {
+                    "type":"main",
+                    "url":"https://www.electronyat.qa/images/thumbs/0002434_digital-cameras_370.png"
+                }
+            ],
+            "item": [
+                {
+                    "name":"Video Camera",
+                    "description":"Sample Description of Video Camera",
+                    "price":200000,
+                    "image":[
+                        {
+                            "type":"main",
+                            "url":"https://static.bhphoto.com/images/images2500x2500/1523213449_1400753.jpg"
+                        },
+                        {
+                            "type":"sub",
+                            "url":"https://www.camerahouse.com.au/blog/wp-content/uploads/2016/12/dslr-video.jpg"
+                        },
+                        {
+                            "type":"sub",
+                            "url":"https://www.adorama.com/alc/wp-content/uploads/2018/05/Woman-Vlogging-1024x682.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Shoes",
+            "description": "Sample Description of Shoes",
+            "image":[
+                {
+                    "type":"main",
+                    "url":"https://images-na.ssl-images-amazon.com/images/I/51q2t2DUpaL._AC_SL1001_.jpg"
+                }
+            ],
+            "item": [
+                {
+                    "name":"Sport Shoe",
+                    "description":"Sample Description Of Sport Shoe",
+                    "price":5000,
+                    "image":[
+                        {
+                            "type":"main",
+                            "url":"https://ae01.alicdn.com/kf/HTB1MxP4TFzqK1RjSZFvq6AB7VXaK/Men-s-Work-Safety-Shoes-Steel-Toe-Cap-Fashion-Breathable-Sports-Shoes-Breathable-Lightweight-Summer-Men.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+       
+    ]
+}

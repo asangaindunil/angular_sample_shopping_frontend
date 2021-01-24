@@ -1,0 +1,5 @@
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let cat of Category" (click)="loadItem(cat.id)">
+        {{cat.name}}
+    </li>
+  </ul>

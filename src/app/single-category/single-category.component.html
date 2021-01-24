@@ -1,0 +1,6 @@
+<h2>Category Details : {{singleCatDetails.description}}</h2>
+<carousel [cellsToShow]="1" [loop]="true" [autoplay]="true" [autoplayInterval]="2000" [objectFit]="contain">
+    <div class="carousel-cell" *ngFor="let img of singleCatDetails.image">
+        <img [src]="img.url">
+    </div>
+</carousel>

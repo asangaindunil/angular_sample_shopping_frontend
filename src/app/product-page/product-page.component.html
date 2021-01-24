@@ -1,0 +1,15 @@
+
+<h1>Sample Shopping</h1>
+
+<div class="row">
+    <div class="col-md-3">
+        <app-category-widget [categories]="categories" (newItemEvent)="getProductFromCategory($event)"></app-category-widget>
+    </div>
+    <div class="col-md-9" *ngIf="(singleCatDetails | json) != '[]'">
+       
+        <app-single-category  [category]="singleCatDetails"></app-single-category>
+        <h2>Items</h2>
+
+        <app-product-list [items]="singleCatDetails.item"></app-product-list>
+    </div>
+</div>

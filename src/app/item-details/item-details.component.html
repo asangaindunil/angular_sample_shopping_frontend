@@ -1,0 +1,52 @@
+<div class="card">
+    <div class="row">
+        <aside class="col-sm-5 border-right">
+            <article class="gallery-wrap">
+                <div class="img-big-wrap">
+                    <div> <a href="#"><img id="previewImg" [src]="itemDetails.image[0].url"></a></div>
+                </div>
+        
+                <carousel [cellsToShow]="3" [loop]="true" [autoplay]="true" [autoplayInterval]="2000">
+                    <div class="carousel-cell" *ngFor="let item of itemDetails.image">
+                        <img [src]="item.url" (click)="previewImg(item.url)"> 
+                    </div>
+                </carousel>
+            </article>
+        </aside>
+        <aside class="col-sm-7">
+            <article class="card-body p-5">
+                <h3 class="title mb-3">{{itemDetails.name}}</h3>
+
+                <p class="price-detail-wrap">
+                    <span class="price h3 text-warning">
+                        <span class="currency"></span><span class="num">{{itemDetails.price|currency:'Rs. '}}</span>
+                    </span>
+                </p> <!-- price-detail-wrap .// -->
+                <dl class="item-property">
+                    <dt>Description</dt>
+                    <dd>
+                        <p>{{itemDetails.description}}</p>
+                    </dd>
+                </dl>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <dl class="param param-inline">
+                            <dt>Quantity: </dt>
+                            <dd>
+                              
+                                <input class="form-control" type="number" value="1" min="1" style="width:70px;">
+
+                            </dd>
+                        </dl> 
+                    </div> 
+                    
+                </div>
+                <hr>
+                <a href="#" class="btn btn-lg btn-primary text-uppercase"> Buy now </a>
+                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase"> <i class="fas fa-shopping-cart"></i>
+                    Add to cart </a>
+            </article>
+        </aside> 
+    </div> 
+</div>
